@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kub — Privacy policy</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="./"><img src="icon.png" alt="" width="32" height="32"> Kub</a>
+    <nav class="lang">
+      <button data-lang="en">English</button>
+      <button data-lang="es">Español</button>
+    </nav>
+  </header>
+
+  <main>
+    <article lang="en" data-content="en">
+      <h1>Privacy policy</h1>
+      <p class="muted">Last updated: November 7, 2026</p>
+      <p>Kub is a graphical interface for Windows Package Manager (winget). This policy explains what data the app handles.</p>
+
+      <h2>Data the app collects</h2>
+      <p><strong>None.</strong> Kub has no user accounts, no telemetry or analytics, no advertising, and does not send any information to the developer's servers.</p>
+
+      <h2>Data stored on your device</h2>
+      <ul>
+        <li><strong>Preferences</strong> (theme, language, install mode, skipped updates, recent searches) in <code>%LOCALAPPDATA%\Kub\settings.json</code>.</li>
+        <li><strong>Caches</strong> of app icons, download statistics and "Official" checks in <code>%LOCALAPPDATA%\Kub</code>.</li>
+        <li><strong>A diagnostic log</strong> with technical errors in <code>%LOCALAPPDATA%\Kub\log.txt</code>.</li>
+      </ul>
+      <p>You can delete these files at any time. They are removed when you uninstall the app.</p>
+
+      <h2>Internet connections</h2>
+      <p>To work, Kub connects to:</p>
+      <ol>
+        <li><strong>The sources configured in winget</strong> (such as the winget community repository and Microsoft Store), through Windows Package Manager itself, to search, install and update apps. Those connections are governed by each source's terms.</li>
+        <li><strong>Each vendor's servers</strong>, to download the installer of the app you choose.</li>
+        <li><strong>To check whether an app is official</strong>, the public winget manifest repository (<code>raw.githubusercontent.com/microsoft/winget-pkgs</code>) and, for Microsoft Store apps, the public Store catalog service.</li>
+        <li><strong>To show logos, screenshots and popularity</strong>, the winget icon CDN, Microsoft Store images, the public UniGetUI icon database on GitHub, the GitHub and Chocolatey public APIs, and, when needed, the app's official repository or website listed in its manifest.</li>
+      </ol>
+      <p>These requests only carry the standard technical information of any web connection (such as your IP address and a user agent that identifies Kub). No personal data and no list of your apps is sent.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about privacy: <a href="mailto:kubms26@gmail.com">kubms26@gmail.com</a></p>
+    </article>
+
+    <article lang="es" data-content="es" hidden>
+      <h1>Política de privacidad</h1>
+      <p class="muted">Última actualización: 7 de noviembre de 2026</p>
+      <p>Kub es una interfaz gráfica para el Administrador de paquetes de Windows (winget). Esta política explica qué datos trata la aplicación.</p>
+
+      <h2>Datos que recoge la aplicación</h2>
+      <p><strong>Ninguno.</strong> Kub no tiene cuentas de usuario, no incluye telemetría ni analíticas, no muestra publicidad y no envía información a servidores del desarrollador.</p>
+
+      <h2>Datos que se quedan en tu equipo</h2>
+      <ul>
+        <li><strong>Preferencias</strong> (tema, idioma, modo de instalación, actualizaciones omitidas, búsquedas recientes) en <code>%LOCALAPPDATA%\Kub\settings.json</code>.</li>
+        <li><strong>Cachés</strong> de iconos, estadísticas de descargas y comprobaciones de «Oficial» en <code>%LOCALAPPDATA%\Kub</code>.</li>
+        <li><strong>Un registro de diagnóstico</strong> con errores técnicos en <code>%LOCALAPPDATA%\Kub\log.txt</code>.</li>
+      </ul>
+      <p>Puedes borrar estos archivos cuando quieras. Se eliminan al desinstalar la aplicación.</p>
+
+      <h2>Conexiones a Internet</h2>
+      <p>Para funcionar, Kub se conecta a:</p>
+      <ol>
+        <li><strong>Los orígenes configurados en winget</strong> (como el repositorio de la comunidad de winget y Microsoft Store), a través del propio Administrador de paquetes de Windows, para buscar, instalar y actualizar aplicaciones. Esas conexiones se rigen por las condiciones de cada origen.</li>
+        <li><strong>Los servidores de cada fabricante</strong>, para descargar el instalador de la aplicación que eliges.</li>
+        <li><strong>Para comprobar si una aplicación es oficial</strong>, al repositorio público de manifiestos de winget (<code>raw.githubusercontent.com/microsoft/winget-pkgs</code>) y, para las aplicaciones de Microsoft Store, al servicio público del catálogo de la Store.</li>
+        <li><strong>Para mostrar logotipos, capturas y popularidad</strong>, a la CDN de iconos de winget, a las imágenes de Microsoft Store, a la base pública de iconos de UniGetUI en GitHub, a las API públicas de GitHub y Chocolatey y, si hace falta, al repositorio o a la web oficial de la aplicación indicados en su manifiesto.</li>
+      </ol>
+      <p>En estas peticiones solo viaja la información técnica estándar de cualquier conexión web (como la dirección IP y un agente de usuario que identifica a Kub). No se envía ningún dato personal ni la lista de tus aplicaciones.</p>
+
+      <h2>Contacto</h2>
+      <p>Dudas sobre privacidad: <a href="mailto:kubms26@gmail.com">kubms26@gmail.com</a></p>
+    </article>
+  </main>
+
+  <footer class="muted">Kub is an independent app and is not affiliated with Microsoft. · Kub es una aplicación independiente y no está afiliada a Microsoft.</footer>
+  <script src="lang.js"></script>
+</body>
+</html>
