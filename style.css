@@ -83,6 +83,8 @@ article, .hero {
 
 .hero { text-align: center; }
 .hero h1 { font-size: 36px; line-height: 1.2; margin: 16px 0 8px; }
+.store-badge { display: inline-block; margin-top: 16px; }
+.store-badge img { display: block; height: auto; }
 .features { text-align: left; max-width: 560px; margin: 24px auto; }
 
 h1 { font-weight: 600; }
